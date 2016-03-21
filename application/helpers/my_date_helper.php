@@ -131,11 +131,12 @@ function getInvoiceNextReoccureDate($date, $frequency){
             return "";
         endif;
 	
-       if(empty(changeDateFormat($DOB) )):
+	$checkDataIsvalid = changeDateFormat($DOB);
+       if(empty($checkDataIsvalid) || ($checkDataIsvalid === false)):
 	   return false;
        endif;
        
-
+       
            
         $date_piece = new DateTime($DOB);
   
