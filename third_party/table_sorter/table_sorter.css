@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-Oct-2014, 11:20:39
+    Author     : trblap
+*/
+.tablesorter thead tr{
+  background: none repeat scroll 0 0 #dddddd !important;
+}
+table.tablesorter thead tr .header {
+	background-image: url("../table_sorter/images/bg.gif");
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url("../table_sorter/images/asc.gif");
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url("../table_sorter/images/desc.gif");
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #8dbdd8;
+}
